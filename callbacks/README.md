@@ -1,4 +1,4 @@
-### Callbacks in JS
+## Callbacks in JS (Workshop)
 
 Follow the process for understanding the flow of control.
 
@@ -12,6 +12,8 @@ document.addEventListener('click', (clickEvent) => {
 });
 ```
 
+![Ex 1](images/Ex1.png)
+
 ### Question 2
 
 1. `console.log` a number in each part of the code which represents your guess as to what order the code will be executed in.  Run the code.  The numbers should be logged in order: 1, 2, 3, 4... If they aren't, follow the flow of control to figure out why.  Correct the `console.log`s.
@@ -24,6 +26,7 @@ fetch("https://async-workshops-api.herokuapp.com/people")
     console.log("People response:", peopleResponse)
   })
 ```
+![Ex 2](images/Ex2.png)
 
 ### Question 3
 
@@ -38,6 +41,7 @@ let getReturnValue = fetch("https://async-workshops-api.herokuapp.com/people")
     return peopleResponse
   })
 ```
+![Ex 3](images/Ex3.png)
 
 ### Question 4
 
@@ -51,6 +55,7 @@ fetch("https://async-workshops-api.herokuapp.com/people")
     peopleResponse.forEach((person) => console.log(person.name))
   })
 ```
+![Ex 4](images/Ex4.png)
 
 ### Question 5
 `console.log` a number in each part of the code which represents your guess as to what order the code will be executed in.  Run the code.  The numbers should be logged in order: 1, 2, 3, 4... If they aren't, follow the flow of control to figure out why.  Correct the `console.log`s.
@@ -60,3 +65,4 @@ setTimeout(() => {
   console.log("Hi there!");
 }, 0)
 ```
+![Ex 5](images/Ex5.png)
