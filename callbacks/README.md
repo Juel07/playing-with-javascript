@@ -12,7 +12,7 @@ document.addEventListener('click', (clickEvent) => {
 });
 ```
 
-![Ex 1](images/Ex1.png)
+![Ex 1](images/ex1.png)
 
 ### Question 2
 
